@@ -31,6 +31,17 @@ module.exports = function(defaults) {
           'ui-blue-gray': '#607d8b'
         }
       }
+    },
+    nodeAssets: {
+      hack: {
+        srcDir: 'dist',
+        import: {
+          include: [
+            { path: 'standard.css', prepend: true },
+            { path: 'hack.css', prepend: true }
+          ]
+        }
+      }
     }
   });
 
