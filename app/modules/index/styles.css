@@ -1,0 +1,38 @@
+@value ui-gray from "ui-colors";
+
+:global(.standard) .user-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+:global(.standard) .user-item {
+  cursor: pointer;
+  padding: .75rem 1rem;
+  transform: translateZ(0);
+  transition: all .3s ease-in-back;
+
+  &:hover, &:focus {
+    background-color: color(ui-gray a(16%));
+    text-indent: 1rem;
+  }
+}
+
+:global(.intrinsic) {
+  display: block;
+
+  position: relative;
+  width: 100%;
+  height: 0;
+
+  background-color: color(ui-gray l(96%));
+
+  & img {
+    position: absolute 0 auto auto 0;
+    width: 100%;
+  }
+}
+
+:global(.intrinsic.\-square) {
+  padding-top: 100%;
+}
