@@ -46,6 +46,7 @@
     "loader.js": "^4.0.1",
     "postcss-cssnext": "^2.8.0",
     "postcss-extend": "^1.0.5",
-    "postcss-import": "^8.1.2"
+    "postcss-import": "^8.1.2",
+    "rucksack-css": "^0.8.6"
   }
 }

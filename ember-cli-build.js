@@ -6,7 +6,8 @@ module.exports = function(defaults) {
       plugins: [
         require('postcss-import'),
         require('postcss-extend'),
-        require('postcss-cssnext')
+        require('postcss-cssnext'),
+        require('rucksack-css')({ alias: false, hexRGBA: false, fallbacks: true })
       ],
       virtualModules: {
         'ui-colors': {
