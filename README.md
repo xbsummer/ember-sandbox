@@ -1,53 +1,60 @@
-# Sandbox
+# Ember.js Sandbox
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+这是一个练习与挑战性质的开源项目，主题是围绕着 [Ember.js](http://emberjs.com/) 框架及其技术栈来学习和实践前端开发。
 
-## Prerequisites
+## 如何参与本项目？
 
-You will need the following things properly installed on your computer.
+我们对参与者没有任何限制，任何人都可以自由的复制或使用本项目的代码。如果你想要参与进来和我们一起练习，你可以：
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+1. 加入我们的 QQ 群：242650456（不强制，如果你不用 QQ 也可以仅使用 Github 全程参与）
 
-## Installation
+1. 加入我们的 Github 组织，目前我们只接受 QQ 群成员成为本组织的成员，因此你需要在 QQ 群呼叫管理员来申请加入
 
-* `git clone <repository-url>` this repository
-* `cd sandbox`
-* `npm install`
-* `bower install`
+1. Fork 这个项目的代码（这需要你有一个 Github 账号）
 
-## Running / Development
+1. 在你的计算机上克隆你在上一步中 fork 的项目，然后安装运行这个项目所需要的依赖。具体如下：
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+    1. 首先确认 node 的版本不小于 4，最好是 4.5 以上（也就是目前官方的长期稳定版本）
+    1. 其次确认 npm 的版本最好是 3 以上（会给你更好的性能）
+    1. 全局安装以下依赖：
+        - `npm install --global bower`
+        - `npm install --global ember-cli`
+        - `npm install --global phantomjs-prebuilt`（可选，只影响测试相关的代码）
+    1. 在项目的目录下安装以下依赖：
+        - `npm install`
+        - `bower install`
+    1. 运行项目：`ember server`，然后用浏览器打开地址 `http://localhost:1337`
 
-### Code Generators
+以上步骤应足以帮助你在本地运行这个项目了，在此过程当中如果出现问题，可以在本项目中创建 issue 来描述你的情况并获取来自项目成员的帮助。
 
-Make use of the many generators for code, try `ember help generate` for more details
+如果你要参与特定的某一个练习，以下是你应该知道的：
 
-### Running Tests
+1. 每一个独立的练习都有一个独立的分支，相互之间不会干扰
 
-* `ember test`
-* `ember test --server`
+1. 在本文档后面列出了目前可以参与的练习介绍，你可以找到练习所处的分支的名称
 
-### Building
+1. 在本地切换到对应的分支然后运行项目，接着你就可以写下你自己的代码了
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+1. 基本上每一个练习都会有一个前期介绍视频和一个后期解答视频，遇到不明白的地方可以先参考这些视频
 
-### Deploying
+1. 代码编写完之后提交、推送、最后创建 PR
 
-Specify what it takes to deploy your app.
+1. PR 创建之后我们就会为你的答案进行代码审核，帮助你进一步理解练习的目的和意义，同时提高代码的质量
 
-## Further Reading / Useful Links
+以上就是本项目的基本流程，有变化的地方我们都会在对应的视频中告知。如果你对 Github 协作的过程不够清楚，你可以观看系列视频的第二期，里面有完整的操作流程。
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+## 练习及视频列表
 
+<details>
+    <summary>第 1 期：如何开始</summary>
+
+- 练习：无
+- 视频：[Youtube](https://www.youtube.com/watch?v=GRVVYxJ0eqg) | [哔哩哔哩](http://www.bilibili.com/video/av6451274)
+</details>
+
+<details>
+    <summary>第 2 期：在 Github 上协作</summary>
+
+- 练习：无
+- 视频：[Youtube](https://www.youtube.com/watch?v=Z6N1HyhEPKo) | [哔哩哔哩](http://www.bilibili.com/video/av6452647)
+</details>
