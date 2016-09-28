@@ -58,3 +58,14 @@
 - 练习：无
 - 视频：[Youtube](https://www.youtube.com/watch?v=Z6N1HyhEPKo) | [哔哩哔哩](http://www.bilibili.com/video/av6452647)
 </details>
+
+<details>
+    <summary>第 3 期：在父子组件之间传递状态</summary>
+
+- 练习：
+    - 题目：[分支 003-begin](https://github.com/very-geek/ember-sandbox/tree/003-begin)
+    - 答案：[分支 003-final]()
+- 视频：
+    - 介绍：[Youtube](https://www.youtube.com/watch?v=AISmLOsWcfY) | [哔哩哔哩](http://www.bilibili.com/video/av6454526)
+    - 总结：[Youtube]() | [哔哩哔哩]()
+</details>
